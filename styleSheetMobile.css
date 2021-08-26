@@ -1,0 +1,84 @@
+@media screen and (max-width : 480px) {
+    .headerClass{
+        width: auto;
+        padding: 1rem;
+        background-color: #333333;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .bodyClass{
+        height: 85%;
+    }
+
+    .outer {
+        display: block;
+    }
+
+    .inner {
+        display: block;
+        margin-top: 4rem;
+        position: relative;
+        padding: 1rem;
+    }
+
+    .buttonDiv {
+        display: flex;
+        position: absolute;
+        top: 4rem;
+        justify-content: center;
+        width: -webkit-fill-available;
+    }
+
+    .shuffleButton {
+        width: 100%;
+        margin-right: 5px;
+        text-align: right;
+    }
+
+    .sortButton{
+        width: 100%;
+    }
+
+    .customButton{
+        width: 6rem;
+    }
+
+    .basicCard {
+        height: 3rem;
+        font-size: 25px;
+        color:black;
+        margin-bottom: 0.25rem;
+        border-left-style: solid;
+        border-left-width: 0.5rem;
+        background-color: #e3e3e3;
+    }
+
+    .card1,
+    .card8 {
+        border-left-color: #6f98a8;
+    }
+
+    .card2,
+    .card4 {
+        border-left-color: #2b8ead;
+    }
+
+    .card3,
+    .card5,
+    .card9 {
+        border-left-color: #2f454e;
+    }
+
+    .card6,
+    .card7 {
+        border-left-color: #bfbfbf;
+    }
+
+    .footer{
+        position: relative;
+        margin-top: 0.5rem;
+        font-size: large;
+    }
+    
+}

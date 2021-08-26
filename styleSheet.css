@@ -1,0 +1,89 @@
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+}
+.bodyClass {
+    background-color: #efefef;
+    height: 90%;
+}
+
+.headerClass{
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
+    padding: 1%;
+    background-color: white;
+}
+
+.outer {
+    display: inline-flex;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    height: 100%;
+    border-top: 2px gray solid;
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+
+}
+
+.basicCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 500%;
+    font-family: monospace;
+}
+
+.card1,
+.card8 {
+    background-color: #6f98a8;
+}
+
+.card2,
+.card4 {
+    background-color: #2b8ead;
+}
+
+.card3,
+.card5,
+.card9 {
+    background-color: #2f454e;
+}
+
+.card6,
+.card7 {
+    background-color: #bfbfbf;
+}
+
+.buttonDiv {
+    margin: 1rem;
+    width: 20%;
+}
+
+.customButton {
+    background-color: #72c3dc;
+    color: white;
+    padding: 15px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 0px #2b8ead;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+    background-color: #efefef;
+}
